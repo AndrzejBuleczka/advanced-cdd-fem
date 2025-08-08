@@ -145,9 +145,20 @@
     --border-radius-2: 0.5rem;
     --border-radius-3: 0.75rem;
   }
-}
 
-body {
-  font-family: var(--ff-body);
-  color: var(--clr-brown-500);
+  html {
+    font-family: var(--ff-body);
+    line-height: 1.6rem;
+  }
+
+  body {
+    font-size: var(--font-size-regular);
+    color: var(--text-main);
+    background-color: var(--background-main);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--ff-heading);
+    color: var(--text-high-contrast);
+  }
 }
