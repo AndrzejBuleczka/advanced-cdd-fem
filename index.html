@@ -15,19 +15,21 @@
   <body>
     <header class="site-header">
       <div class="wrapper" data-width="wide">
-        <img src="/assets/fungi-finders.svg" alt="Fungi Finders" />
-        <nav class="prmiary-navigation">
-          <ul>
-            <li><a href="/">Discover</a></li>
-            <li><a href="#">Muschroom Guide</a></li>
-            <li><a href="#">FAQ</a></li>
-          </ul>
-        </nav>
+        <div class="site-header__inner">
+          <img src="/assets/fungi-finders.svg" alt="Fungi Finders" />
+          <nav class="primary-navigation">
+            <ul>
+              <li><a href="/">Discover</a></li>
+              <li><a href="#">Muschroom Guide</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
 
     <main>
-      <section class="hero section text-center" data-padding="compact">
+      <section class="hero section text-center flow" data-padding="compact">
         <div class="wrapper">
           <h1>Discover the World of Muschromm Foraging</h1>
         </div>
@@ -52,7 +54,7 @@
       </section>
 
       <section class="section">
-        <div class="wrapper">
+        <div class="wrapper flow">
           <h2 class="section-title">The joys of mushroom foraging</h2>
           <p>
             Foraging for mushrooms can be a rewarding experience for many
@@ -61,8 +63,9 @@
             thrill of the hunt, and savor the satisfaction of finding a hidden
             culinary treasure.
           </p>
+
           <div class="equal-columns">
-            <div class="card">
+            <div class="card grid-flow">
               <img
                 src="/assets/outdoor-exploration.webp"
                 alt="Tighly grouped brown mushrooms growing up the side of a mossy tree trunk"
@@ -76,7 +79,7 @@
                 for exciting discoveries around every tree and under every log.
               </p>
             </div>
-            <div class="card">
+            <div class="card grid-flow">
               <img
                 src="/assets/botanical-expertise.webp"
                 alt="Various harvested wild mushrooms on a table"
@@ -91,7 +94,7 @@
                 ecosystem health.
               </p>
             </div>
-            <div class="card">
+            <div class="card grid-flow">
               <img
                 src="/assets/culinary-delight.webp"
                 alt="A freshly cooked plate of food, still steaming, with several mushroom slices on it"
@@ -112,9 +115,9 @@
 
       <section class="background-accent section" data-padding="compact">
         <div class="wrapper" data-width="narrow">
-          <div class="text-center fonst-size-lg">
+          <div class="text-center fonst-size-lg flow">
             <h2 class="section-title">
-              Start your <span>Foraging Adventure!</span>
+              Start your <span class="text-brand">Foraging Adventure!</span>
             </h2>
             <p>
               Whether you're seeking a deeper connection with nature, a new
@@ -127,15 +130,19 @@
 
       <section class="background-extra-dark section">
         <div class="wrapper" data-width="wide">
-          <div class="equal-columns">
+          <div
+            class="equal-columns"
+            data-gap="large"
+            data-vertical-alignment="centered"
+          >
             <div>
               <img
                 src="/assets/get-to-know.webp"
                 alt="A man on his hands and knees carefully digging a mushroom out of the forest floor"
               />
             </div>
-            <div class="fonst-size-lg">
-              <h2>Get to know your mushrooms</h2>
+            <div class="fonst-size-lg flow">
+              <h2 class="section-title">Get to know your mushrooms</h2>
               <p>
                 Successful and safe mushroom foraging begins with a deep
                 understanding of the species you'll encounter in the wild - not
@@ -160,8 +167,12 @@
 
       <section class="section">
         <div class="wrapper" data-width="wide">
-          <div class="equal-columns">
-            <div class="fonst-size-lg">
+          <div
+            class="equal-columns"
+            data-gap="large"
+            data-vertical-alignment="centered"
+          >
+            <div class="fonst-size-lg flow">
               <h2 class="section-title">Connect with Nature</h2>
               <p>
                 Experience the beauty of the great outdoors while foraging for
