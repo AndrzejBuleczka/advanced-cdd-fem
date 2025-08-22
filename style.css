@@ -275,6 +275,84 @@
       gap: 0.5rem 1rem;
     }
   }
+
+  .site-footer {
+    text-align: center;
+    background: var(--background-dark);
+    padding-block: 2rem;
+    display: grid;
+    gap: 2rem;
+
+    a {
+      text-decoration: none;
+      color: var(--text-main);
+
+      &:hover,
+      &:focus-visible {
+        color: var(--text-brand-light);
+      }
+    }
+  }
+
+  .site-footer__title {
+    font-size: var(--font-size-lg);
+    font-family: var(--ff-heading);
+    font-weight: 700;
+  }
+
+  .hero {
+    text-align: center;
+    background-image: url(/assets/hero.webp);
+    background-size: cover;
+    background-position: center;
+    font-size: var(--font-size-md);
+    color: var(--text-high-contrast);
+  }
+
+  .hero__title {
+    font-size: var(--font-size-heading-lg);
+
+    > span {
+      display: block;
+      font-size: var(--font-size-heading-xl);
+      color: var(--text-brand);
+    }
+  }
+
+  .card {
+    display: grid;
+    gap: var(--grid-flow-space, 1rem);
+    padding: 1rem;
+    background-color: var(--background-light);
+    border-radius: var(--border-radius-3);
+
+    img {
+      border-radius: var(--border-radius-2);
+    }
+  }
+
+  .card__title {
+    font-size: var(--card-title-font-size, var(--font-size-heading-sm));
+    color: var(--card-title-color, var(--text-brand));
+  }
+
+  .button {
+    display: inline flex;
+    cursor: pointer;
+    font-family: var(--ff-heading);
+    font-weight: 700;
+    font-size: var(--font-size-md);
+    text-decoration: none;
+    background-color: var(--background-accent-main);
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius-2);
+  }
+
+  .button:hover,
+  .button:focus-visible {
+    background: var(--background-accent-light);
+    color: var(--text-high-contrast);
+  }
 }
 
 @layer utilities {
