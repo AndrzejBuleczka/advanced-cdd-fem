@@ -270,9 +270,22 @@
   .primary-navigation {
     ul {
       list-style: none;
+      margin: 0;
+      padding: 0;
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5rem 1rem;
+      gap: 0.5rem 2rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    @media (width < 760px) {
+      ul {
+        flex-direction: column;
+        
+      }
     }
   }
 
