@@ -85,20 +85,23 @@
         </div>
       </section>
 
-      <section class="section">
-        <div class="wrapper">
+      <section class="section mushroom-guide">
+        <div class="wrapper flow">
           <h2 class="section-title">Get to know your mushrooms</h2>
-          <select>
-            <option value="all">Season: All</option>
-            <option value="spring">Season: Spring</option>
-            <option value="summer">Season: Summer</option>
-            <option value="fall">Season: Fall</option>
-          </select>
-          <select>
-            <option value="all">Type: All</option>
-            <option value="edible">Edible</option>
-            <option value="toxic">Toxic</option>
-          </select>
+          <div class="flex-group">
+            <select name="season" id="season">
+              <option value="all">Season: All</option>
+              <option value="spring">Spring</option>
+              <option value="summer">Summer</option>
+              <option value="fall">Fall</option>
+            </select>
+            <select name="edible" id="edible">
+              <option value="all">Type: All</option>
+              <option value="edible">Edible</option>
+              <option value="toxic">Toxic</option>
+            </select>
+          </div>
+
           <div class="grid-auto-fit">
             <div class="card">
               <h3 class="card__title">Chanterelle</h3>
