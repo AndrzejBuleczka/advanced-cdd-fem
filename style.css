@@ -213,11 +213,11 @@
     justify-items: var(--grid-flow-justification, start);
   }
 
-  .grid-auto-fit {
+  .grid-auto-fill {
     display: grid;
     gap: var(--grid-flow-gap, 1rem);
     grid-template-columns: repeat(
-      auto-fit,
+      auto-fill,
       minmax(min(var(--grid-auto-fit-min-column-size, 250px), 100%), 1fr)
     );
   }
@@ -618,5 +618,9 @@
     position: absolute;
     white-space: nowrap;
     width: 1px;
+  }
+
+  [hidden] {
+    display: none;
   }
 }
